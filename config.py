@@ -28,7 +28,7 @@ database_name = 'google_scraper'
 # filename.json => save results as json
 # filename.csv => save a csv file
 # If set to None, don't write any file.
-output_filename = ''
+output_filename = 'test-beds.csv'
 
 # Whether sqlalchemy should log all stuff to stdout
 # useful for devs. Don't set this to True if you don't know
@@ -208,7 +208,7 @@ continue_last_scrape = True
 
 # Specify the connection details in the following format=  mysql= //<username>= <password>@<host>/<dbname>
 # Example=  mysql= //root= soemshittypass@localhost/supercoolproxies
-#mysql_proxy_db = 'mysql://google_scraper:XZpo73QV3x81rOLL@42.96.175.44/google_scraper'
+mysql_proxy_db = 'mysql://google_scraper:XZpo73QV3x81rOLL@42.96.175.44/google_scraper'
 
 # Whether to manually clean cache files. For development purposes
 clean_cache_files = False
@@ -382,3 +382,4 @@ proxy_detected_timeout = 400
 
 # Whether to stop workers when they got detected instead of waiting.
 stop_on_detection = True
+
